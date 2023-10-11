@@ -86,4 +86,8 @@ dependencies {
   testImplementation "com.google.dagger:hilt-android-testing:$hilt_android_version" // 1
   testImplementation "org.robolectric:robolectric:4.10.3" // 2
   kaptTest "com.google.dagger:hilt-android-compiler:$hilt_android_version" // 3
+
+  // Hilt for instrumented tests.
+  androidTestImplementation "com.google.dagger:hilt-android-testing:$hilt_android_version" // 1
+  kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hilt_android_version" // 2
 }
